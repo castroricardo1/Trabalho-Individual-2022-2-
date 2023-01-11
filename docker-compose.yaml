@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+
+  mongo:
+    image: mongo
+    container_name: mongo-db
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: lappis
+      MONGO_INITDB_ROOT_PASSWORD: lappis
