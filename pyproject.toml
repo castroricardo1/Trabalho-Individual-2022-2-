@@ -5,6 +5,7 @@ description = "GCES-Trabalho-Individual-2022-2"
 authors = ["Ricardo Loureiro <ricardoloureiro75@gmail.com>"]
 
 [tool.poetry.dependencies]
+python = "^3.8"
 doxygen = "*"
 sphinx = "*"
 
